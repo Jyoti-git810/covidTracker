@@ -1,0 +1,16 @@
+.Table{
+    overflow: scroll;
+    color: #6a5d5d;
+    height: 400px;
+    
+}
+.Table tr{
+    padding: 0.5em;
+}
+.Table tr{
+    display: flex;
+    justify-content: space-between;
+}
+.Table tr:nth-child(odd){
+    background-color: #f3f2f8;
+}
