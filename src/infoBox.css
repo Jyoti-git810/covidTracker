@@ -1,0 +1,28 @@
+.InfoBoxe{
+    cursor: pointer;
+    flex: 1;
+}
+.InfoBoxe:not(last-child){
+    margin-right: 10px;
+}
+.InfoBoxe_Cases{
+    color: #cc1034;
+    font-size: 1.75rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 0.5rem !important;
+}
+.InfoBoxe_total{
+    color: #6c757d;
+    font-size: 0.8rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 15px !important;
+}
+.infoBox--selected{
+    border-top: 7px solid #7dd71d;
+}
+.infoBox--isRed{
+    border-color:#CC1034;
+}
+.infoBox--recovered{
+    color: #7dd71d !important;
+}
